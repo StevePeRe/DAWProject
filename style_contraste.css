@@ -1,0 +1,19 @@
+
+html{
+    filter: contrast(200%);
+    background-color: #fff;
+}
+
+/*Modo alto contraste
+.contraste-button{
+    position: absolute;
+    top: 60px;
+    left: 15px;
+    padding: 7px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+html.contrast-mode{
+    filter: contrast(200%);
+}*/

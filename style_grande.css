@@ -1,0 +1,156 @@
+header {
+    margin-top: -35px;
+    background: #F5F5F5;
+  }
+
+h1{
+    text-align: center;
+    background-color: rgba(182, 127, 255, 0.623);
+    padding: 35px;
+    font-size: 68px;
+    font-style: italic;
+    margin-bottom: -15px;
+  }
+
+nav{
+    margin:auto;
+    text-align: center;
+    width: 545px;
+    background-color: #ffefbbc7;
+    border-radius: 8px;
+    font-size: 0;
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  nav a {
+    padding-right: 10px;
+    line-height: 50px;
+    font-size: 20px;
+  }
+
+  .nav2{
+    margin-bottom: 20px;
+    text-align: center;
+    width: 550px;
+    background-color: #ffefbbc7;
+    border-radius: 8px;
+    font-size: 0;
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .nav2 a {
+    font-size: 20px;
+  }
+
+  .op{
+    font-size: 25px;
+    width: 400px;
+    height: 410px;
+  }
+  
+  .op a {
+    font-size: 18px;
+  }
+
+  .cent{
+    font-size: 25px;
+  }
+
+  .tar {
+    font-size: 25px;
+  }
+
+  table td,table th {
+    font-size: 20px;
+  }
+
+  .h41{
+    font-size: 30px;
+  }
+
+  .field{
+    margin:auto;
+    margin-top: 7px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-size: 28px;
+    width: 350px;
+    height: 60px;
+    background:#ffefbbc7;
+    border: 7px double rgb(182, 127, 255);
+    border-radius: 5px;
+    padding: 15px;
+  }
+
+  .field a{
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .margen-mensj article h3{
+    font-size: 29px;
+  }
+
+  .margen-mensj article p{
+    font-size: 24px;
+  }
+
+  .margen-mensj article ul li{
+    font-size: 24px;
+  }
+
+  .margen-mensj article h4{
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  .container1 article a h4{
+    font-size: 30px;
+  }
+
+  .container1 article p{
+    font-size: 30px;
+  }
+
+  .form-b {
+    height: 325px;
+  }
+
+  .form-l {
+    height: 320px;
+  }
+
+  .form-r{
+    height: 680px;
+  }
+
+  .form-s{
+    height: 1880px;
+  }
+
+  .sleect1{
+    font-size: 23px;
+  }
+
+  .nuev {
+    font-size: 27px;
+  }
+
+  input{
+    font-size: 25px;
+  }
+
+  footer{
+
+    font-size: 20px;
+
+  }

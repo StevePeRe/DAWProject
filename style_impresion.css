@@ -1,0 +1,219 @@
+
+/*inserta siempre un salto de página antes de los h1*/
+.break {
+  page-break-before: always;
+}
+
+.break2 {
+  page-break-after: always;
+}
+
+body {
+  /*filter: grayscale(100%);*/ /*Por si hace falta que sea en b&w*/
+  letter-spacing: 0.02cm;
+  background: #ffffff;
+  font-family: serif;
+  font-size: 12pt;
+}
+  
+header {
+  margin-top: -1.5cm;
+  background: #ffffff;
+}
+  
+main {
+  background: #ffffff;
+}
+  
+footer {
+  display: none;
+}
+  
+h1{
+  text-align: center;
+  background-color: #ffffff;
+  padding: 5mm;
+  font-size: 50pt;
+  font-style: serif;
+  margin-bottom: 0.1mm;
+}
+  
+nav{
+  display:none;
+}
+  
+nav a {
+  display: none;
+}
+  
+.field{
+  display: none;
+}
+  
+h2 {
+  text-align: center;
+  font-family: serif;
+  font-size: 25pt;
+}
+
+.container1{
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+
+.cent{
+  text-align: center;
+}
+  
+p {
+  margin-bottom: 1cm;
+  margin-top: -0.5cm;
+}
+  
+input {
+  position:relative;
+}
+  
+.form-b {
+  width: 450px;
+  background:#ffffff;
+  padding: 40px;
+  margin: auto;
+  margin-top: 20px;
+  height: 250px;
+  border-radius: 4px;
+}
+  
+.nuev {
+  display:grid;
+  justify-content: center;
+}
+  
+.busc {
+  margin-top: -10px
+}
+  
+.form-l {
+  width: 450px;
+  background:#ffffff;
+  padding: 40px;
+  margin: auto;
+  margin-top: 20px;
+  height: 250px;
+  border-radius: 4px;
+}
+  
+.form-r{
+  width: 500px;
+  background:#ffffff;
+  padding: 40px;
+  margin: auto;
+  margin-top: 20px;
+  height: 620px;
+  border-radius: 4px;
+}
+  
+table {
+  font-family: serif;
+  border-collapse: collapse;
+  background:#ffffff;
+  margin:auto;
+}
+    
+table td,table th {
+  border: 1px solid #000000;
+  padding: 8px;
+}
+    
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+  
+.tar {
+  margin-bottom: 15px;
+}
+  
+.form-s{
+  width: 500px;
+  background:#ffffff;
+  padding: 40px;
+  margin: auto;
+  margin-top: 20px;
+  height: 1130px;
+  border-radius: 4px;
+}
+  
+.op{
+  margin:auto;
+  text-align: center;
+  width: 350px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  align-items: center;
+  padding: 10px;
+}
+  
+.op a {
+  line-height: 50px;
+  font-size: 12pt;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+  
+.nav2{
+  display: none;
+}
+  
+.nav2 a {
+  display: none;
+}
+
+
+/*Modo noche*/
+.dark-mode-button{
+  display: none;
+}
+
+html.dark-mode{
+  display: none;
+}
+
+html.dark-mode img{
+  display: none;
+}
+
+/*Modo alto contraste*/
+.contraste-button{
+  display: none;
+}
+
+html.contrast-mode{
+  display: none;
+}
+
+/*para añadir la url de la pagina*/
+.url::after {
+  content: " (" attr(href) ")";
+  text-decoration: underline;
+  text-decoration-color: rgb(0, 153, 241);
+}
+
+/*Para eliminar el login (formulario inecesario) y que solo salga el título de la página*/
+.log_inv{
+  display: none;
+}
+
+.tar {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+
+
+  
